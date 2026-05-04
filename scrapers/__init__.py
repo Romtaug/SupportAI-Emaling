@@ -15,6 +15,7 @@ from scrapers.education import EducationScraper
 from scrapers.france_travail import FranceTravailScraper
 from scrapers.hotels import HotelsScraper
 from scrapers.immo import ImmoScraper
+from scrapers.notaires import NotairesScraper
 
 
 REGISTRY = {
@@ -24,6 +25,7 @@ REGISTRY = {
     "france_travail": FranceTravailScraper,
     "hotels": HotelsScraper,
     "immo": ImmoScraper,
+    "notaires": NotairesScraper,
 }
 
 
@@ -35,4 +37,5 @@ __all__ = [
     "FranceTravailScraper",
     "HotelsScraper",
     "ImmoScraper",
+    "NotairesScraper",
 ]
